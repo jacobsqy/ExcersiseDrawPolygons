@@ -24,6 +24,9 @@ public class TestSubtyping {
     triList.add(new Triangle(1,1));
     // triList.add(new Polygon());
     // triList.add(new Object());
+
+    // polList = triList; // does not work
+    polArray = triArray; //does work!
   }
 
 }
