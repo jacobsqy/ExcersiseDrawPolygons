@@ -27,6 +27,11 @@ public class TestSubtyping {
 
     // polList = triList; // does not work
     polArray = triArray; //does work!
+
+    for (int i = 0; i < 3; i++) {
+      polList.set(i, triList.get(i)); // Works!
+      polArray[i] = triArray[i]; // Works!
+    }
   }
 
 }
