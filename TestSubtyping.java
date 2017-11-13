@@ -32,6 +32,10 @@ public class TestSubtyping {
       polList.set(i, triList.get(i)); // Works!
       polArray[i] = triArray[i]; // Works!
     }
+
+    Object o = triList.get(0);
+    o = triArray[0];
+    Triangle t = polList.get(0);
   }
 
 }
